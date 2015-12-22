@@ -1,0 +1,19 @@
+{
+  "name": "azure-webjob-node-sql-sample",
+  "version": "0.1.0",
+  "description": "Sample showing how to access a SQL Server via an Azure WebJob.",
+  "main": "run.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "azure",
+    "webjobs",
+    "sql"
+  ],
+  "author": "chrande@microsoft.com",
+  "license": "MIT",
+  "dependencies": {
+    "mssql": "^2.5.0"
+  }
+}
