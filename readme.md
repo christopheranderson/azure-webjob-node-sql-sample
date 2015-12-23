@@ -5,7 +5,7 @@ A simple example of accessing a SQL Server from Node on Azure WebApps
 ## What it does
 
 This connects to a SQL DB in an ADO.NET connection string named `SQLAZURECONNSTR_SQLDB` and runs `SELECT 'foobar'`, then prints the result to stdout.
-It runs every minute, thanks to the schedule setting in the settings.json. This only works in Standard with Always On turned on. If you need CRON Jobs outside of Standard tier, use Azure Scheduler.
+It runs every minute, thanks to the schedule setting in the settings.job. This only works in Standard with Always On turned on. If you need CRON Jobs outside of Standard tier, use Azure Scheduler.
 
 ## How to deploy
 
